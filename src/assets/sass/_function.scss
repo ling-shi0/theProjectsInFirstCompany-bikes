@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@import "variables";
+
+@function pr($px: 28px) {	//？？？
+  	@return #{$px/$baseFontSize}rem;
+}

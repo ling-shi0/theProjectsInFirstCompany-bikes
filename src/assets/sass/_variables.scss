@@ -1,0 +1,52 @@
+// 定义变量
+
+@charset "UTF-8";
+
+$baseFontSize: 14px !default;       // 字体大小
+$baseFontFamily: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif !default;     // 字体
+
+//----------------------color------------------------自定义
+// 背景颜色
+$darkbg: #333 !default;       // 深
+$mediumbg1: #555 !default;      // 中 1
+$mediumbg2: #666 !default;      // 中 2
+$lightbg1: #999 !default;         // 浅 1
+$lightbg2: #ccc !default;         // 浅 2
+$lightbg3: #f2f2f2 !default;      // 浅 3
+$whitebg: #fff !default;      // 白
+
+// 字体颜色
+$darkFontColor1: #000 !default;    // 深 1
+$darkFontColor2: #333 !default;    // 深 2
+$mediumFontColor1: #555 !default;     // 中 1
+$mediumFontColor2: #666 !default;     // 中 2 — 字体默认颜色
+$mediumFontColor3: #777 !default;     // 中 3
+$lightFontColor1: #999 !default;          // 浅 1
+$lightFontColor2: #ccc !default;          // 浅 2
+$lightFontColor3: #f2f2f2 !default;       // 浅 3
+$whiteFontColor: #fff !default;    // 白
+
+// 边框
+$darkFrame1: #000 !default;      // 深 1
+$darkFrame2: #333 !default;      // 深 2
+$mediumFrame1: #555 !default;      // 中 1
+$mediumFrame2: #666 !default;      // 中 2
+$mediumFrame3: #777 !default;      // 中 3
+$lightFrame1: #999 !default;          // 浅 1
+$lightFrame2: #ccc !default;          // 浅 2
+$lightFrame3: #f2f2f2 !default;       // 浅 3
+$whiteFrame1: #fff !default;     // 白
+
+
+//$blue: #02b0f0 !default; // 主色调 - 蓝色
+//$green: #2abb4f !default; // 辅色调 - 绿色
+//$defaultFontColor: #2f3a4c !default; // 字体默认颜色
+//$thBG: #f5f5f5 !default; // 表格头 背景色
+//$thBorderColor: #d5d5d5 !default; // 表格头 边框颜色
+//$thFontColor: #51565b !default; // 表格头 字体颜色
+//$tdBorderColor: #eeeeee !default;
+//$tdEvenColor: #f9f9f9 !default; // 表格单元格 双数行背景色
+//$borderColor: #d5d5d5 !default; // 默认的边框颜色
+//$viewBg: #f5f5f5 !default; // 默认的背景颜色
+//$borderColor: #bebebe !default; // 默认的边框颜色
+//$fontBlue: #02b0f0 !default; // 下拉框字体聚焦颜色

@@ -1,0 +1,90 @@
+@import "variables";
+@import "function";
+@import "mixin";
+
+.icon {
+	display: inline-block;
+	width: pr(32px);
+	height: pr(32px);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+}
+
+// =========== 引用icons.png背景图标 ============
+// 无预算版本图标
+.icon-version {
+	  width: pr(80px);
+	  height: pr(80px);
+	  background-position: -129px -1030px;
+}
+// 提示弹窗-警告图标
+.icon-warning {
+	  width: pr(45px);
+	  height: pr(45px);
+	  background-position: -25px -610px;
+}
+// 编辑状态
+.icon-edit {
+	background-position: -128px -515px;
+	margin-left: 5px;
+	&:hover {
+		background-position: -162px -515px;
+	}
+}
+// 添加状态
+.icon-add {
+	background-position: -30px -515px;
+	margin-left: 5px;
+	&:hover {
+		background-position: -63px -515px;
+	}
+}
+
+// 预算编制--锁定/解锁状态
+.icon-locked {
+	background-position: -93px -89px;
+	&:hover {
+		background-position: -121px -89px;
+	}
+}
+.icon-unlock {
+	background-position: -98px -135px;
+	&:hover {
+		background-position: -123px -135px;
+	}
+}
+
+// 预算版本--删除状态
+.icon-delete {
+	background-position: -110px -562px;
+	&:hover {
+		background-position: -132px -562px;
+	}
+}
+
+.icon-delete-big {
+	background-position: -434px -286px;
+	&:hover {
+		background-position: -434px -321px;
+	}
+}
+
+.c-icon_case_person{background-position: -47px -217px}
+.c-icon_case_team{background-position: -47px -247px}
+.c-icon_case_clock1{background-position: -46px -116px}
+.c-icon_case_clock2{background-position: -46px -147px}
+.c-icon_case_money{background-position: -46px -178px}
+.c-icon_case_pen{background-position: -47px -17px}
+.c-icon_case_eye{background-position: -78px -18px}
+.c-icon_case_eyeClose{background-position: -113px -18px}
+.c-icon_case_star{background-position: -179px -18px}
+.c-icon_case_ling{background-position: -149px -17px}
+.c-icon_case_bilingStar{background-position: -180px -82px}
+.c-icon_case-hover{
+	&:hover{
+		.c-icon_case_pen{background-position: -47px -49px}
+		.c-icon_case_eye{background-position: -78px -50px}
+		.c-icon_case_star{background-position: -179px -49px}
+	};
+}
