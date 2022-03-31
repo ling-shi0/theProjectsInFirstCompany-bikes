@@ -1,0 +1,51 @@
+{
+  "name": "test2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@hui-pro/layout": "^1.17.0",
+    "@hui-pro/page": "^2.0.0-beta.2",
+    "axios": "^0.19.2",
+    "clipboard": "^2.0.6",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.13.2",
+    "faker": "^4.1.0",
+    "hui": "^2.6.1",
+    "iview": "^3.5.4",
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0",
+    "swiper": "^5.4.0",
+    "vue": "^2.6.10",
+    "vue-clipboard2": "^0.3.1",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@hui-pro/album": "^1.17.1",
+    "@hui-pro/empty": "^1.17.0",
+    "@hui-pro/img-carousel": "^1.19.2",
+    "@hui-pro/img-preview": "^1.19.0",
+    "@hui-pro/img-result-card": "^1.19.1",
+    "@hui-pro/img-snippets": "^1.17.0",
+    "@hui-pro/img-view": "^1.19.2",
+    "@hui-pro/sync-tree": "^1.18.0",
+    "@hui-pro/target-img-upload": "^1.18.0",
+    "@hui-pro/utils": "^1.19.0",
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "html-loader": "^1.1.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
